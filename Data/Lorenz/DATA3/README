@@ -1,0 +1,2 @@
+DistFromZero.dat contains dist(A^nB^n, 0) for n=2:25
+DistFromZeroX.dat contains dist(A^25B^n, 0) for n=7:24
