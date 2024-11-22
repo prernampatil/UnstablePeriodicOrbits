@@ -16,7 +16,7 @@ relative position of individual unstable periodic orbits in the embedded space. 
 present a modified formula to derive symbolic representation of distinct periodic orbits for a
 specified sequence length, extending the Polyá-Redfield enumeration theorem.
 
-The publication "Separation of periodic orbits in the delay embedded space of chaotic attractors" by Prerna Patil, Eurika Kaiser, JN Kutz and Steven Brunton is available on [arXiv](https://arxiv.org/abs/2411.13103)
+The publication "Separation of periodic orbits in the delay embedded space of chaotic attractors" by Prerna Patil, Eurika Kaiser, JN Kutz and Steven Brunton is available on [arXiv](https://arxiv.org/abs/2411.13103).
 
 # Code organization 
 The data for unstable periodic orbits is available in the `Data/` folder. Two separate folders are available: 1.) `Lorenz/` 2.) `Rossler/`
@@ -32,12 +32,18 @@ the approprite lines between 35 to 37. The lenght of the time delay of the Hanke
 of separation. This code can be used to obtain Figure 6/8/10 (a-f) in the paper. 
 
 Clustering of the UPOs based on the A-heavy vs. B-heavy orbits on the opposite ends of the unfolded attractor can be obtained by running 
-the code `Codes/Lorenz/ColorCodedUPOs.m`. This code can be used to obtain Figure 9 in the paper. 
+the code `Codes/Lorenz/ColorCodedUPOs.m`. This code can be used to obtain Figure 9(a) in the paper.
+To obtain Figure 9(b), the file `Codes/Lorenz/ColorCodeSeqLen7.m` can be run.
 
 The comparison between UPOs based on their proximity in the embedded space vs. phase space can be obtained by running the code `Code/Lorenz/ProximityInSpaces.m`.
 This code can be used to obtain Figure 7(a-b) in the publication.
 
+To obtain Figure 5(b) the file `Codes/Lorenz/PolyaCounting.m` can be run. 
+
 # Rössler attractor
+The first return map the Rössler attractor can be obtained by running the file `Code/Rossler/Rossler_FirstReturnMap.m`. This code can be used
+to obtain Figure 2(b) in the paper. 
+
 The separation of UPOs for the Rössler attractor for the two cases: 1.) $`A^nB/AB^n`$ 2.) UPOs with sequence length less than 8, can be
 obtained by running the file `Codes/Rossler/ROSSLER_ParametersOfHankelMatrix.m`. This code can be used to obtain Figures 11/12 (a-f) 
 in the paper. 
