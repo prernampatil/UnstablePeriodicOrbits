@@ -28,7 +28,7 @@ signal augmentation (`AugmentSignal.m`), create visualization of the attractor (
 # Lorenz attractor 
 The separation of UPOs for the Lorenz attractor for the three cases: 1.) $`A^nB/AB^n`$ 2.) $`A^nB^n`$ 3.) UPOs with sequence length less than 8, 
 can be obtained by the running the file `Codes/Lorenz/UnfoldingOfViswanathUPOs.m`. Selection of the cases can be done by commenting/uncommenting
-the approprite lines between 35 to 37. The lenght of the time delay of the Hankel matrix can be set on line 129 to obtain different levels 
+the approprite lines between 35 to 37. The length of the time delay of the Hankel matrix can be set on line 129 to obtain different levels 
 of separation. This code can be used to obtain Figure 6/8/10 (a-f) in the paper. 
 
 Clustering of the UPOs based on the A-heavy vs. B-heavy orbits on the opposite ends of the unfolded attractor can be obtained by running 
