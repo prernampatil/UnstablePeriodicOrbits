@@ -16,5 +16,5 @@ relative position of individual unstable periodic orbits in the embedded space. 
 present a modified formula to derive symbolic representation of distinct periodic orbits for a
 specified sequence length, extending the Polyá-Redfield enumeration theorem.
 
-The publication "" by Prerna Patil, Eurika Kaiser, JN Kutz and Steven Brunton is available on [arXiv](https://arxiv.org/abs/2411.13103)
+The publication "Separation of periodic orbits in the delay embedded space of chaotic attractors" by Prerna Patil, Eurika Kaiser, JN Kutz and Steven Brunton is available on [arXiv](https://arxiv.org/abs/2411.13103)
 
