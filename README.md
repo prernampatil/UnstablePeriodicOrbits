@@ -18,3 +18,5 @@ specified sequence length, extending the Polyá-Redfield enumeration theorem.
 
 The publication "Separation of periodic orbits in the delay embedded space of chaotic attractors" by Prerna Patil, Eurika Kaiser, JN Kutz and Steven Brunton is available on [arXiv](https://arxiv.org/abs/2411.13103)
 
+# Code organization 
+The data for unstable periodic orbits is available in the 'Data/' folder. Two separate folders are available: 1.) 'Lorenz/' 2.) 'Rossler/'
