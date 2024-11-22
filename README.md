@@ -26,7 +26,7 @@ The folder `Codes/utils/` contains helper functions. These include construction 
 signal augmentation (`AugmentSignal.m`), create visualization of the attractor (`MakeAttractorPlot.m`) etc. 
 
 # Lorenz attractor 
-The separation of UPOs for the Lorenz attractor for the three cases: 1.) A^nB/AB^n 2.) A^nB^n 3.) UPOs with sequence length less than 8, 
+The separation of UPOs for the Lorenz attractor for the three cases: 1.) $`A^nB/AB^n`$ 2.) $`A^nB^n`$ 3.) UPOs with sequence length less than 8, 
 can be obtained by the running the file `Codes/Lorenz/UnfoldingOfViswanathUPOs.m`. Selection of the cases can be done by commenting/uncommenting
 the approprite lines between 35 to 37. The lenght of the time delay of the Hankel matrix can be set on line 129 to obtain different levels 
 of separation. This code can be used to obtain Figure 6/8/10 (a-f) in the paper. 
@@ -38,6 +38,6 @@ The comparison between UPOs based on their proximity in the embedded space vs. p
 This code can be used to obtain Figure 7(a-b) in the publication.
 
 # Rössler attractor
-The separation of UPOs for the Rössler attractor for the two cases: 1.) A^nB/AB^n 2.) UPOs with sequence length less than 8, can be
+The separation of UPOs for the Rössler attractor for the two cases: 1.) $`A^nB/AB^n`$ 2.) UPOs with sequence length less than 8, can be
 obtained by running the file `Codes/Rossler/ROSSLER_ParametersOfHankelMatrix.m`. This code can be used to obtain Figures 11/12 (a-f) 
 in the paper. 
